@@ -1,0 +1,20 @@
+let listStudent = new arrayStudent();
+let validate = new Debug();
+
+function addStudent()
+{
+    //get data in table
+    let ID =  document.getElementById('masv').value;
+    let FullName =  document.getElementById('hoten').value;
+    let gmail = document.getElementById('email').value;
+    let ID_cand =  document.getElementById('cmnd').value;
+    let numberPhone =  document.getElementById('sdt').value;
+    //check validation
+    if(validate.checknull(ID)==true){
+        document.getElementById('masv').style.borderColor = "red";
+    }
+    else
+    {
+        document.getElementById('masv').style.border = "border:5px solid #28a745;";
+    }
+}

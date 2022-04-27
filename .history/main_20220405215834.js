@@ -1,0 +1,23 @@
+let listStudent = new arrayStudent();
+let validate = new Debug();
+function DomID(id){
+    let element = document.getElementById(id);
+    return element;
+}
+function addStudent()
+{
+    //get data in table
+    let ID =  DomID('masv').value;
+    let FullName =  document.getElementById('hoten').value;
+    let gmail = document.getElementById('email').value;
+    let ID_cand =  document.getElementById('cmnd').value;
+    let numberPhone =  document.getElementById('sdt').value;
+    //check validation
+    if(validate.checknull(ID)==true){
+        document.getElementById('masv').style.borderColor = "red";
+    }
+    else
+    {
+        document.getElementById('masv').style.borderColor = "#28a745";
+    }
+}
