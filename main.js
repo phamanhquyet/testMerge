@@ -1,5 +1,14 @@
 //quyet12314324
 
+
+//quyrt12344
+
+
+
+
+
+
+
 let listStudent = new arrayStudent();
 let validate = new Debug();
 GetStorage();
